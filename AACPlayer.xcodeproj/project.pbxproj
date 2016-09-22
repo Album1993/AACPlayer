@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36743B1F18C4264B00C997AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36743B1E18C4264B00C997AA /* Foundation.framework */; };
+		36743B2118C4264B00C997AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36743B2018C4264B00C997AA /* CoreGraphics.framework */; };
+		36743B2318C4264B00C997AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36743B2218C4264B00C997AA /* UIKit.framework */; };
+		36743B2918C4264B00C997AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36743B2718C4264B00C997AA /* InfoPlist.strings */; };
+		36743B2B18C4264B00C997AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36743B2A18C4264B00C997AA /* main.m */; };
+		36743B2F18C4264B00C997AA /* AACPlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36743B2E18C4264B00C997AA /* AACPlayerAppDelegate.m */; };
+		36743B3218C4264B00C997AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36743B3018C4264B00C997AA /* Main.storyboard */; };
+		36743B3518C4264B00C997AA /* AACPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36743B3418C4264B00C997AA /* AACPlayerViewController.m */; };
+		36743B3718C4264B00C997AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36743B3618C4264B00C997AA /* Images.xcassets */; };
+		36743B3E18C4264B00C997AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36743B3D18C4264B00C997AA /* XCTest.framework */; };
+		36743B3F18C4264B00C997AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36743B1E18C4264B00C997AA /* Foundation.framework */; };
+		36743B4018C4264B00C997AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36743B2218C4264B00C997AA /* UIKit.framework */; };
+		36743B4818C4264B00C997AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36743B4618C4264B00C997AA /* InfoPlist.strings */; };
+		36743B4A18C4264B00C997AA /* AACPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36743B4918C4264B00C997AA /* AACPlayerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36743B4118C4264B00C997AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36743B1318C4264B00C997AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36743B1A18C4264B00C997AA;
+			remoteInfo = AACPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36743B1B18C4264B00C997AA /* AACPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AACPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36743B1E18C4264B00C997AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36743B2018C4264B00C997AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36743B2218C4264B00C997AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36743B2618C4264B00C997AA /* AACPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AACPlayer-Info.plist"; sourceTree = "<group>"; };
+		36743B2818C4264B00C997AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36743B2A18C4264B00C997AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36743B2C18C4264B00C997AA /* AACPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AACPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		36743B2D18C4264B00C997AA /* AACPlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AACPlayerAppDelegate.h; sourceTree = "<group>"; };
+		36743B2E18C4264B00C997AA /* AACPlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AACPlayerAppDelegate.m; sourceTree = "<group>"; };
+		36743B3118C4264B00C997AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36743B3318C4264B00C997AA /* AACPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AACPlayerViewController.h; sourceTree = "<group>"; };
+		36743B3418C4264B00C997AA /* AACPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AACPlayerViewController.m; sourceTree = "<group>"; };
+		36743B3618C4264B00C997AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36743B3C18C4264B00C997AA /* AACPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AACPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36743B3D18C4264B00C997AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		36743B4518C4264B00C997AA /* AACPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AACPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		36743B4718C4264B00C997AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36743B4918C4264B00C997AA /* AACPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AACPlayerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36743B1818C4264B00C997AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36743B2118C4264B00C997AA /* CoreGraphics.framework in Frameworks */,
+				36743B2318C4264B00C997AA /* UIKit.framework in Frameworks */,
+				36743B1F18C4264B00C997AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36743B3918C4264B00C997AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36743B3E18C4264B00C997AA /* XCTest.framework in Frameworks */,
+				36743B4018C4264B00C997AA /* UIKit.framework in Frameworks */,
+				36743B3F18C4264B00C997AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36743B1218C4264B00C997AA = {
+			isa = PBXGroup;
+			children = (
+				36743B2418C4264B00C997AA /* AACPlayer */,
+				36743B4318C4264B00C997AA /* AACPlayerTests */,
+				36743B1D18C4264B00C997AA /* Frameworks */,
+				36743B1C18C4264B00C997AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36743B1C18C4264B00C997AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36743B1B18C4264B00C997AA /* AACPlayer.app */,
+				36743B3C18C4264B00C997AA /* AACPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36743B1D18C4264B00C997AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36743B1E18C4264B00C997AA /* Foundation.framework */,
+				36743B2018C4264B00C997AA /* CoreGraphics.framework */,
+				36743B2218C4264B00C997AA /* UIKit.framework */,
+				36743B3D18C4264B00C997AA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36743B2418C4264B00C997AA /* AACPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				36743B2D18C4264B00C997AA /* AACPlayerAppDelegate.h */,
+				36743B2E18C4264B00C997AA /* AACPlayerAppDelegate.m */,
+				36743B3018C4264B00C997AA /* Main.storyboard */,
+				36743B3318C4264B00C997AA /* AACPlayerViewController.h */,
+				36743B3418C4264B00C997AA /* AACPlayerViewController.m */,
+				36743B3618C4264B00C997AA /* Images.xcassets */,
+				36743B2518C4264B00C997AA /* Supporting Files */,
+			);
+			path = AACPlayer;
+			sourceTree = "<group>";
+		};
+		36743B2518C4264B00C997AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36743B2618C4264B00C997AA /* AACPlayer-Info.plist */,
+				36743B2718C4264B00C997AA /* InfoPlist.strings */,
+				36743B2A18C4264B00C997AA /* main.m */,
+				36743B2C18C4264B00C997AA /* AACPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36743B4318C4264B00C997AA /* AACPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				36743B4918C4264B00C997AA /* AACPlayerTests.m */,
+				36743B4418C4264B00C997AA /* Supporting Files */,
+			);
+			path = AACPlayerTests;
+			sourceTree = "<group>";
+		};
+		36743B4418C4264B00C997AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36743B4518C4264B00C997AA /* AACPlayerTests-Info.plist */,
+				36743B4618C4264B00C997AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36743B1A18C4264B00C997AA /* AACPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36743B4D18C4264B00C997AA /* Build configuration list for PBXNativeTarget "AACPlayer" */;
+			buildPhases = (
+				36743B1718C4264B00C997AA /* Sources */,
+				36743B1818C4264B00C997AA /* Frameworks */,
+				36743B1918C4264B00C997AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AACPlayer;
+			productName = AACPlayer;
+			productReference = 36743B1B18C4264B00C997AA /* AACPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36743B3B18C4264B00C997AA /* AACPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36743B5018C4264B00C997AA /* Build configuration list for PBXNativeTarget "AACPlayerTests" */;
+			buildPhases = (
+				36743B3818C4264B00C997AA /* Sources */,
+				36743B3918C4264B00C997AA /* Frameworks */,
+				36743B3A18C4264B00C997AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36743B4218C4264B00C997AA /* PBXTargetDependency */,
+			);
+			name = AACPlayerTests;
+			productName = AACPlayerTests;
+			productReference = 36743B3C18C4264B00C997AA /* AACPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36743B1318C4264B00C997AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AACPlayer;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ruotsalainen Werner";
+				TargetAttributes = {
+					36743B1A18C4264B00C997AA = {
+						DevelopmentTeam = 26B9393KWV;
+					};
+					36743B3B18C4264B00C997AA = {
+						TestTargetID = 36743B1A18C4264B00C997AA;
+					};
+				};
+			};
+			buildConfigurationList = 36743B1618C4264B00C997AA /* Build configuration list for PBXProject "AACPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36743B1218C4264B00C997AA;
+			productRefGroup = 36743B1C18C4264B00C997AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36743B1A18C4264B00C997AA /* AACPlayer */,
+				36743B3B18C4264B00C997AA /* AACPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36743B1918C4264B00C997AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36743B3718C4264B00C997AA /* Images.xcassets in Resources */,
+				36743B2918C4264B00C997AA /* InfoPlist.strings in Resources */,
+				36743B3218C4264B00C997AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36743B3A18C4264B00C997AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36743B4818C4264B00C997AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36743B1718C4264B00C997AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36743B3518C4264B00C997AA /* AACPlayerViewController.m in Sources */,
+				36743B2B18C4264B00C997AA /* main.m in Sources */,
+				36743B2F18C4264B00C997AA /* AACPlayerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36743B3818C4264B00C997AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36743B4A18C4264B00C997AA /* AACPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36743B4218C4264B00C997AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36743B1A18C4264B00C997AA /* AACPlayer */;
+			targetProxy = 36743B4118C4264B00C997AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36743B2718C4264B00C997AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36743B2818C4264B00C997AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36743B3018C4264B00C997AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36743B3118C4264B00C997AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36743B4618C4264B00C997AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36743B4718C4264B00C997AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36743B4B18C4264B00C997AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36743B4C18C4264B00C997AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36743B4E18C4264B00C997AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 26B9393KWV;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AACPlayer/AACPlayer-Prefix.pch";
+				INFOPLIST_FILE = "AACPlayer/AACPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36743B4F18C4264B00C997AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 26B9393KWV;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AACPlayer/AACPlayer-Prefix.pch";
+				INFOPLIST_FILE = "AACPlayer/AACPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		36743B5118C4264B00C997AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AACPlayer.app/AACPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AACPlayer/AACPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AACPlayerTests/AACPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		36743B5218C4264B00C997AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AACPlayer.app/AACPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AACPlayer/AACPlayer-Prefix.pch";
+				INFOPLIST_FILE = "AACPlayerTests/AACPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36743B1618C4264B00C997AA /* Build configuration list for PBXProject "AACPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36743B4B18C4264B00C997AA /* Debug */,
+				36743B4C18C4264B00C997AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36743B4D18C4264B00C997AA /* Build configuration list for PBXNativeTarget "AACPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36743B4E18C4264B00C997AA /* Debug */,
+				36743B4F18C4264B00C997AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36743B5018C4264B00C997AA /* Build configuration list for PBXNativeTarget "AACPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36743B5118C4264B00C997AA /* Debug */,
+				36743B5218C4264B00C997AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36743B1318C4264B00C997AA /* Project object */;
+}
